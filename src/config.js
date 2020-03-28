@@ -58,6 +58,14 @@ const PAGES_DATA = [
   },
   {
     pageId: 6,
+    sortId: 1,
+    title: "随机图片api",
+    subtitle: "OneManager+Heroku",
+    url: "https://api-img.herokuapp.com/show.php",
+    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/ghgdfgcd.png",
+  },
+  {
+    pageId: 7,
     sortId: 2,
     title: "softo",
     subtitle: "在线工具",
