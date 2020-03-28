@@ -36,7 +36,7 @@ const PAGES_DATA = [
     pageId: 3,
     sortId: 1,
     title: "OneManager",
-    subtitle: "OneDrive+OneManager+Heroku",
+    subtitle: "OneDrive+OneManager",
     url: "https://zhangyijia.herokuapp.com",
     icon: "https://zhangyijia.herokuapp.com/favicon.ico",
   },
@@ -51,10 +51,10 @@ const PAGES_DATA = [
   {
     pageId: 5,
     sortId: 1,
-    title: "music",
+    title: "Music",
     subtitle: "音乐搜索器",
     url: "http://music.zhangyijia.co.ax",
-    icon: "https://zhangyijia.herokuapp.com/favicon.ico",
+    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/music.png",
   },
   {
     pageId: 6,
