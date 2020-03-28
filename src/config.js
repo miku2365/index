@@ -8,7 +8,7 @@ const BLOG_URL = "https://zhangyijia.eu5.org"; // 个人网站链接（请填写
 
 const GITHUB = "https://github.com/miku-o"; // 右上角 Github 图标链接，留空不显示
 
-const BACKGROUND_IMG_URL = "https://cdn.jsdelivr.net/gh/miku-o/imgData/1583995378514.jpg"; // 背景图片url，留空默认为必应每日图片
+const BACKGROUND_IMG_URL = ""; // 背景图片url，留空默认为必应每日图片
 
 const SORT_DATA = [
   { sortId: 1, title: "About Me" },
@@ -34,6 +34,30 @@ const PAGES_DATA = [
   },
   {
     pageId: 3,
+    sortId: 1,
+    title: "OneManager",
+    subtitle: "OneDrive+OneManager+Heroku",
+    url: "https://zhangyijia.herokuapp.com",
+    icon: "https://zhangyijia.herokuapp.com/favicon.ico",
+  },
+  {
+    pageId: 4,
+    sortId: 1,
+    title: "OneIndex",
+    subtitle: "OneDrive+OneIndex",
+    url: "http://pan.zhangyijia.co.ax",
+    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/favicon.ico",
+  },
+  {
+    pageId: 5,
+    sortId: 1,
+    title: "music",
+    subtitle: "音乐搜索器",
+    url: "http://music.zhangyijia.co.ax",
+    icon: "https://zhangyijia.herokuapp.com/favicon.ico",
+  },
+  {
+    pageId: 6,
     sortId: 2,
     title: "softo",
     subtitle: "在线工具",
