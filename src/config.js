@@ -65,7 +65,7 @@ const PAGES_DATA = [
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/music.png",
   },
   {
-    pageId: 6,
+    pageId: 7,
     sortId: 1,
     title: "随机图片api",
     subtitle: "OneManager+Heroku",
