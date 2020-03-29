@@ -51,9 +51,17 @@ const PAGES_DATA = [
   {
     pageId: 5,
     sortId: 1,
+    title: "网易云打卡",
+    subtitle: "网易云音乐打卡",
+    url: "http://music.zhangyijia.co.ax",
+    icon: "http://music.zhangyijia.co.ax/img/NetEase_music.png",
+  },
+  {
+    pageId: 6,
+    portId: 1,
     title: "Music",
     subtitle: "音乐搜索器",
-    url: "http://music.zhangyijia.co.ax",
+    url: "https://music-find.herokuapp.com/",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/music.png",
   },
   {
