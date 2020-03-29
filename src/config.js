@@ -43,10 +43,10 @@ const PAGES_DATA = [
   {
     pageId: 4,
     sortId: 1,
-    title: "OneIndex",
-    subtitle: "OneDrive+OneIndex",
-    url: "http://pan.zhangyijia.co.ax",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/favicon.ico",
+    title: "Music",
+    subtitle: "音乐搜索器",
+    url: "https://music-find.herokuapp.com",
+    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/music.png",
   },
   {
     pageId: 5,
@@ -58,14 +58,6 @@ const PAGES_DATA = [
   },
   {
     pageId: 6,
-    portId: 1,
-    title: "Music",
-    subtitle: "音乐搜索器",
-    url: "https://music-find.herokuapp.com/",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/music.png",
-  },
-  {
-    pageId: 7,
     sortId: 1,
     title: "随机图片api",
     subtitle: "OneManager+Heroku",
