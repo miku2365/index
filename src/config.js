@@ -38,7 +38,7 @@ const PAGES_DATA = [
     title: "OneManager",
     subtitle: "OneDrive+OneManager",
     url: "https://zhangyijia.herokuapp.com",
-    icon: "https://zhangyijia.herokuapp.com/favicon.ico",
+    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/04/08/lkl.png",
   },
   {
     pageId: 4,
