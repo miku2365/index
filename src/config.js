@@ -8,7 +8,7 @@ const BLOG_URL = "https://zhangyijia.eu5.org"; // 个人网站链接（请填写
 
 const GITHUB = "https://github.com/miku-o"; // 右上角 Github 图标链接，留空不显示
 
-const BACKGROUND_IMG_URL = ""; // 背景图片url，留空默认为必应每日图片
+const BACKGROUND_IMG_URL = "https://api-img.herokuapp.com/bing.php"; // 背景图片url，留空默认为必应每日图片
 
 const SORT_DATA = [
   { sortId: 1, title: "About Me" },
