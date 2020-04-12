@@ -54,7 +54,7 @@ const PAGES_DATA = [
     title: "网易云打卡",
     subtitle: "网易云音乐打卡",
     url: "http://music.zhangyijia.co.ax",
-    icon: "http://music.zhangyijia.co.ax/img/NetEase_music.png",
+    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/04/12/NetEase_music.png",
   },
   {
     pageId: 6,
