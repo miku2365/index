@@ -4,7 +4,7 @@ const HOST = ""; // 线上服务器地址，如果不使用请留空
 
 const BLOG_NAME = "ZhangYiJia⼁Blog"; // 个人网站名字
 
-const BLOG_URL = "https://zhangyijia.eu5.org"; // 个人网站链接（请填写完整链接）
+const BLOG_URL = "https://blog.zhangyijia.eu.org"; // 个人网站链接（请填写完整链接）
 
 const GITHUB = "https://github.com/miku-o"; // 右上角 Github 图标链接，留空不显示
 
@@ -21,7 +21,7 @@ const PAGES_DATA = [
     sortId: 1,
     title: "ZhangYiJia⼁Blog",
     subtitle: "我的个人博客",
-    url: "https://zhangyijia.eu5.org",
+    url: "https://blog.zhangyijia.eu.org",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/5c3aedy7.jpg"
   },
   {
