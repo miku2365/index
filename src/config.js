@@ -4,7 +4,7 @@ const HOST = ""; // 线上服务器地址，如果不使用请留空
 
 const BLOG_NAME = "ZhangYiJia⼁Blog"; // 个人网站名字
 
-const BLOG_URL = "https://blog.zhangyijia.eu.org"; // 个人网站链接（请填写完整链接）
+const BLOG_URL = "https://blog.zhangyijia.ml"; // 个人网站链接（请填写完整链接）
 
 const GITHUB = "https://github.com/miku-o"; // 右上角 Github 图标链接，留空不显示
 
@@ -21,7 +21,7 @@ const PAGES_DATA = [
     sortId: 1,
     title: "ZhangYiJia⼁Blog",
     subtitle: "我的个人博客",
-    url: "https://blog.zhangyijia.eu.org",
+    url: "https://blog.zhangyijia.ml",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/5c3aedy7.jpg"
   },
   {
@@ -37,11 +37,19 @@ const PAGES_DATA = [
     sortId: 1,
     title: "OneManager",
     subtitle: "OneDrive+OneManager",
-    url: "https://zhangyijia.herokuapp.com",
+    url: "https://od.zhangyijia.eu.org",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/04/08/lkl.png",
   },
   {
     pageId: 4,
+    sortId: 1,
+    title: "GET-GD",
+    subtitle: "GoogleDrive+GDindex",
+    url: "https://gd.zhangyijia.ml",
+    icon: "https://gd.zhangyijia.ml/favicon.ico",
+  },
+  {
+    pageId: 5,
     sortId: 1,
     title: "Music",
     subtitle: "音乐搜索器",
@@ -49,28 +57,36 @@ const PAGES_DATA = [
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/music.png",
   },
   {
-    pageId: 5,
+    pageId: 6,
     sortId: 1,
     title: "网易云打卡",
     subtitle: "网易云音乐打卡",
-    url: "http://music.zhangyijia.co.ax",
+    url: "https://music.zhangyijia.ml",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/04/12/NetEase_music.png",
   },
   {
-    pageId: 6,
+    pageId: 7,
     sortId: 1,
     title: "随机图片api",
     subtitle: "OneManager+Heroku",
-    url: "https://api-img.herokuapp.com/description.html",
+    url: "https://img.tlapi.cf/description.html",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/ghgdfgcd.png",
   },
   {
-    pageId: 7,
+    pageId: 8,
     sortId: 2,
     title: "softo",
     subtitle: "在线工具",
     url: "https://softo.co/",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/25/Screenshot_2020-03-25-16-09-32-25-01.png"
+   },
+   {
+    pageId: 9,
+    sortId: 2,
+    title: "Cloudflare",
+    subtitle: "CDN",
+    url: "https://dash.cloudflare.com",
+    icon: "https://cloudflare/img/logo-cloudflare-dark.svg"
    }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
 
