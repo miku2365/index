@@ -79,14 +79,6 @@ const PAGES_DATA = [
     subtitle: "在线工具",
     url: "https://softo.co/",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/25/Screenshot_2020-03-25-16-09-32-25-01.png"
-   },
-   {
-    pageId: 9,
-    sortId: 2,
-    title: "Cloudflare",
-    subtitle: "CDN",
-    url: "https://dash.cloudflare.com",
-    icon: "https://cloudflare/img/logo-cloudflare-dark.svg"
    }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
 
