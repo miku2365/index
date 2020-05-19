@@ -51,21 +51,13 @@ const PAGES_DATA = [
   {
     pageId: 5,
     sortId: 1,
-    title: "Music",
-    subtitle: "音乐搜索器",
-    url: "https://music-find.herokuapp.com",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/music.png",
-  },
-  {
-    pageId: 6,
-    sortId: 1,
     title: "网易云打卡",
     subtitle: "网易云音乐打卡",
     url: "https://music.zhangyijia.ml",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/04/12/NetEase_music.png",
   },
   {
-    pageId: 7,
+    pageId: 6,
     sortId: 1,
     title: "随机图片api",
     subtitle: "OneManager+Heroku",
@@ -73,7 +65,7 @@ const PAGES_DATA = [
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/ghgdfgcd.png",
   },
   {
-    pageId: 8,
+    pageId: 7,
     sortId: 2,
     title: "softo",
     subtitle: "在线工具",
