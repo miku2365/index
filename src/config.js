@@ -46,7 +46,7 @@ const PAGES_DATA = [
     title: "GET-GD",
     subtitle: "GoogleDrive+GDindex",
     url: "https://gd.zhangyijia.ml",
-    icon: "https://gd.zhangyijia.ml/favicon.ico",
+    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/05/favicon.ico",
   },
   {
     pageId: 5,
