@@ -60,7 +60,7 @@ const PAGES_DATA = [
     pageId: 6,
     sortId: 1,
     title: "随机图片api",
-    subtitle: "OneManager+Heroku",
+    subtitle: "Heroku",
     url: "https://img.tlapi.cf/description.html",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/ghgdfgcd.png",
   },
