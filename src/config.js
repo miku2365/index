@@ -53,7 +53,7 @@ const PAGES_DATA = [
     sortId: 1,
     title: "网易云打卡",
     subtitle: "网易云音乐打卡",
-    url: "https://music.zhangyijia.ml",
+    url: "https://music2.zhangyijia.ml",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/04/12/NetEase_music.png",
   },
   {
