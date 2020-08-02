@@ -15,6 +15,8 @@ const SORT_DATA = [
   { sortId: 2, title: "Links" }
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
+const RECORD_NUMBER = ""; // 网站备案号，留空不显示
+
 const PAGES_DATA = [
   {
     pageId: 1,
@@ -71,7 +73,7 @@ const PAGES_DATA = [
     subtitle: "在线工具",
     url: "https://softo.co/",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/25/Screenshot_2020-03-25-16-09-32-25-01.png"
-   }
+  }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
 
 const SLOGAN = [
@@ -98,5 +100,6 @@ export default {
   SLOGAN,
   GITHUB,
   FOOTER_INFO,
-  BACKGROUND_IMG_URL
+  BACKGROUND_IMG_URL,
+  RECORD_NUMBER
 };
