@@ -1,78 +1,38 @@
-const SERVE = false; // 是否使用线上服务器
+const SERVE = true; // 是否使用线上服务器
 
-const HOST = ""; // 线上服务器地址，如果不使用请留空
+const HOST = "https://esunr.xyz:8080/api/esunrIndex"; // 线上服务器地址，如果不使用请留空
 
-const BLOG_NAME = "ZhangYiJia⼁Blog"; // 个人网站名字
+const BLOG_NAME = "EsunR-Blog"; // 个人网站名字
 
-const BLOG_URL = "https://blog.zhangyijia.ml"; // 个人网站链接（请填写完整链接）
+const BLOG_URL = "https://blog.esunr.xyz"; // 个人网站链接（请填写完整链接）
 
-const GITHUB = "https://github.com/miku-o"; // 右上角 Github 图标链接，留空不显示
+const GITHUB = "https://github.com/EsunR"; // 右上角 Github 图标链接，留空不显示
 
-const BACKGROUND_IMG_URL = "https://api-img.zhangyijia.eu.org/bing.php"; // 背景图片url，留空默认为必应每日图片
+const BACKGROUND_IMG_URL = "https://www.esunr.xyz:8080/api/utils/bingPic"; // 背景图片url，留空默认为必应每日图片
 
 const SORT_DATA = [
-  { sortId: 1, title: "About Me" },
-  { sortId: 2, title: "Links" }
+  { sortId: 1, title: "示例分类1" },
+  { sortId: 2, title: "示例分类2" }
 ]; // 网站分类列表，请按照API.md中'/getSort'接口中返回的data格式填写
 
-const RECORD_NUMBER = ""; // 网站备案号，留空不显示
+const RECORD_NUMBER = "豫ICP备18045315号"; // 网站备案号，留空不显示
 
 const PAGES_DATA = [
   {
     pageId: 1,
     sortId: 1,
-    title: "ZhangYiJia⼁Blog",
-    subtitle: "我的个人博客",
-    url: "https://blog.zhangyijia.ml",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/5c3aedy7.jpg"
+    title: "主标题",
+    subtitle: "副标题",
+    url: "http://www.YourWebPage.com/",
+    icon: ""
   },
   {
     pageId: 2,
-    sortId: 1,
-    title: "Github",
-    subtitle: "我的Github地址",
-    url: "https://github.com/miku-o",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/25/GitHub.png"
-  },
-  {
-    pageId: 3,
-    sortId: 1,
-    title: "OneManager",
-    subtitle: "OneDrive",
-    url: "https://od.zhangyijia.eu.org",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/04/08/lkl.png",
-  },
-  {
-    pageId: 4,
-    sortId: 1,
-    title: "GET-GD",
-    subtitle: "GoogleDrive",
-    url: "https://gd.zhangyijia.ml",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/05/favicon.ico",
-  },
-  {
-    pageId: 5,
-    sortId: 1,
-    title: "网易云打卡",
-    subtitle: "网易云音乐打卡",
-    url: "https://music2.zhangyijia.ml",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/04/12/NetEase_music.png",
-  },
-  {
-    pageId: 6,
-    sortId: 1,
-    title: "随机图片api",
-    subtitle: "Heroku",
-    url: "https://img.tlapi.cf/description.html",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/ghgdfgcd.png",
-  },
-  {
-    pageId: 7,
     sortId: 2,
-    title: "softo",
-    subtitle: "在线工具",
-    url: "https://softo.co/",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/25/Screenshot_2020-03-25-16-09-32-25-01.png"
+    title: "主标题",
+    subtitle: "副标题",
+    url: "http://www.YourWebPage.xyz/",
+    icon: ""
   }
 ]; // 网站分类列表，请按照API.md中'/getPages'接口中返回的data格式填写
 
