@@ -27,14 +27,7 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist
-  
-      - name: Deploy coding
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: coding-pages
-          FOLDER: dist
-  
+
   coding:
     needs: vue
     name: Mirror to coding Repo
