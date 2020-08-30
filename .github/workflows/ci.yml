@@ -21,11 +21,18 @@ jobs:
           npm run build
      
       # react项目的FOLDER为build，vue项目改为dist   
-      - name: Deploy
+      - name: Deploy Github
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
+          FOLDER: dist
+  
+      - name: Deploy coding
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: coding-pages
           FOLDER: dist
   
   coding:
