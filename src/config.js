@@ -63,7 +63,7 @@ const PAGES_DATA = [
     sortId: 1,
     title: "随机图片api",
     subtitle: "Heroku",
-    url: "https://img.tlapi.cf/description.html",
+    url: "https://api-img.zhangyijia.eu.org/",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/ghgdfgcd.png"
   },
   {
