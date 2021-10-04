@@ -16,8 +16,10 @@
     "core-js": "^3.8.3",
     "node-forge": "^0.10.0",
     "node-sass": "^4.12.0",
+    "nth-check": "^2.0.1",
     "sass-loader": "^7.1.0",
-    "vue": "^2.6.12",
+    "set-value": "^4.1.0",
+    "vue": "^2.6.14",
     "vue-axios": "^2.1.5",
     "vue-router": "^3.4.9"
   },
