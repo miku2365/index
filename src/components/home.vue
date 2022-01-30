@@ -51,7 +51,7 @@
 
     <!-- 备案号 -->
     <p class="record_number">
-    <a href="http://beian.miit.gov.cn/">鄂ICP备2021019149号</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42900602000279"><img src="0.png">鄂公网安备 42900602000279号</a><br>/n
+    <a href="http://beian.miit.gov.cn/" style="color:#939393;">鄂ICP备2021019149号</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42900602000279" style="color:#939393;"><img src="0.png">鄂公网安备 42900602000279号</a><br>/n
     </p>
 
     <!-- 导航抽屉 -->
