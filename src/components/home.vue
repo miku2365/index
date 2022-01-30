@@ -50,13 +50,9 @@
     </div>
 
     <!-- 备案号 -->
-    <a
-      class="record_number"
-      :class="{ record_number_show: flag }"
-      href="http://beian.miit.gov.cn/"
-      v-if="recordNumber"
-      >{{ recordNumber }}</a
-    >
+    <p class="record_number">
+    <a href="http://beian.miit.gov.cn/">鄂ICP备2021019149号</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42900602000279"><img src="0.png">鄂公网安备 42900602000279号</a><br>/n
+    </p>
 
     <!-- 导航抽屉 -->
     <transition name="fade">
