@@ -45,21 +45,13 @@ const PAGES_DATA = [
   {
     pageId: 4,
     sortId: 1,
-    title: "GET-GD",
-    subtitle: "GoogleDrive",
-    url: "https://gd.zhangyijia.ml",
-    icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/05/favicon.ico"
-  },
-  {
-    pageId: 5,
-    sortId: 1,
     title: "随机图片api",
     subtitle: "Heroku",
     url: "https://api-img.zhangyijia.eu.org/",
     icon: "https://cdn.jsdelivr.net/gh/miku-o/imgData/2020/03/28/ghgdfgcd.png"
   },
   {
-    pageId: 6,
+    pageId: 5,
     sortId: 2,
     title: "softo",
     subtitle: "在线工具",
