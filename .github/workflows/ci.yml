@@ -24,7 +24,7 @@ jobs:
           npm install node-gyp
           npm install
           npm run build
-     
+
       # react项目的FOLDER为build，vue项目改为dist   
       - name: Deploy Github
         uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -45,3 +45,18 @@ jobs:
         with:
           source-repo: "git@github.com:miku-o/index.git"
           destination-repo: "git@gitee.com:miku-o/index.git"
+
+  ftp:
+    name: FTP-Deploy-Action
+    needs: vue
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.1.0
+        with:
+          ref: gh-pages
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.FTP_SERVER }}
+          ftp-username: ${{ secrets.FTP_USERNAME }}
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
