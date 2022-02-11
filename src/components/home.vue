@@ -50,9 +50,9 @@
     </div>
 
     <!-- 备案号 -->
-    <p class="record_number">
-    <a href="http://beian.miit.gov.cn/" style="color:#939393;">鄂ICP备2021019149号</a><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42900602000279" style="color:#939393;"><img src="0.png">鄂公网安备 42900602000279号</a><br>/n
-    </p>
+    <div class="github-badge" style=font-size:1px>
+      <a rel="license" href="http://beian.miit.gov.cn/" target="_blank" title="鄂ICP备2021019149号"><span class="badge-value bg-white"><p style="color:#939393">鄂ICP备2021019149号</p></span></a><span class="badge-value bg-transparent"><img src="0.png" class="img"></span><a rel="license" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42900602000279" target="_blank" title="鄂公网安备42900602000279号"><span class="badge-value bg-white"><p style="color:#939393">鄂公网安备42900602000279号</p></span></a>
+    </div>
 
     <!-- 导航抽屉 -->
     <transition name="fade">
@@ -376,5 +376,42 @@ export default {
   100% {
     transform: translateY(0);
   }
+}
+
+/* 底部页脚小徽标 */
+.github-badge {
+  display: inline-block;
+  border-radius: 4px;
+  text-shadow: none;
+  font-size: 12px;
+  color: #fff;
+  line-height: 15px;
+  background-color: #fff;
+  margin-bottom: 5px
+}
+.github-badge .badge-subject {
+  display: inline-block;
+  background-color: #fff;
+  padding: 4px 4px 4px 6px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px
+}
+.github-badge .badge-value {
+  display: inline-block;
+  padding: 4px 6px 4px 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px
+}
+.github-badge .bg-blue {background-color: #3282b8}
+.github-badge .bg-purple {background-color: #3F51B5}
+.github-badge .bg-green {background-color: #3bca6e}
+.github-badge .bg-white {background-color: #ffffff}
+.github-badge .bg-transparent {background-color: #ffffff00}
+
+/* 图片样式 */
+.img {
+      max-width: 100%;
+      height: auto;
+      margin: auto;
 }
 </style>
