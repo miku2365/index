@@ -50,7 +50,7 @@
     </div>
 
     <!-- 备案号 -->
-    <div class="github-badge" style=font-size:1px>
+    <div class="github-badge">
       <a rel="license" href="http://beian.miit.gov.cn/" target="_blank" title="鄂ICP备2021019149号"><span class="badge-value bg-white"><p style="color:#939393">鄂ICP备2021019149号</p></span></a><span class="badge-value bg-transparent"><img src="0.png" class="img"></span><a rel="license" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42900602000279" target="_blank" title="鄂公网安备42900602000279号"><span class="badge-value bg-white"><p style="color:#939393">鄂公网安备42900602000279号</p></span></a>
     </div>
 
